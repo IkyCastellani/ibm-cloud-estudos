@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 app.get("/", (req, res) => {
   res.json({
     ok: true,
-    mensagem: "Meu primeiro app na IBM Cloud",
+    mensagem: "Versão 2 do meu app na IBM Cloud",
     data: new Date().toISOString(),
   });
 });
